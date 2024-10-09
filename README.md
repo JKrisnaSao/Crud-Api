@@ -1,2 +1,2 @@
 # Crud-Api
-practice building RESTful CRUD APIs
+practice building restful CRUD APIs
