@@ -57,12 +57,10 @@ public class AnimalService {
 
     /**
      * Delete  aniamal from the database
-     * @param id
+     * @param animalId
      *
      */
-    public void deleteAnimnal(int id){
-        animalRepository.deleteById(id);
-    }
+    public void deleteAnimal(int animalId){animalRepository.deleteById(animalId);}
 
 
     /**

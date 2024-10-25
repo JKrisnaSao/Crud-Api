@@ -33,8 +33,9 @@ public class Animal {
         this.description = description;
     }
     //Constructor without animalId for creating new animals
-    public Animal(String name, String species, String habitat, String description){
+    public Animal(String name, String scientificName, String species, String habitat, String description){
         this.name = name;
+        this.scientificName = scientificName;
         this.species = species;
         this.habitat = habitat;
         this.description = description;
